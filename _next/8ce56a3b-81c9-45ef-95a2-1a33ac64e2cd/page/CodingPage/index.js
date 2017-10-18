@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/CodingPage', function() {
+            var comp = module.exports=webpackJsonp([8],{420:function(e,t,n){e.exports=n(421)},421:function(e,t,n){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var l=n(8),u=a(l),o=n(3),r=a(o),c=n(4),d=a(c),s=n(9),f=a(s),i=n(10),p=a(i),m=n(0),_=a(m),h=n(17),v=function(e){function t(){return(0,r.default)(this,t),(0,f.default)(this,(t.__proto__||(0,u.default)(t)).apply(this,arguments))}return(0,p.default)(t,e),(0,d.default)(t,[{key:"render",value:function(){return _.default.createElement("div",null,_.default.createElement("div",{className:"content-page-header"},_.default.createElement(h,{className:"nav-icon",onClick:this.props.onBack})),_.default.createElement("div",{className:"photos-page-content"},_.default.createElement("h1",null,"Coding"),"Coming soon"))}}]),t}(m.Component);t.default=v}},[420]);
+            return { page: comp.default }
+          })
+        

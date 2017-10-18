@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+.an-body, html, body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 30px;
+}
+.header {
+	text-align: center;
+}
+.an-header-image {
+
+}
+.nav-container {
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+}
+.nav-icon {
+	cursor: pointer;
+	font-size: 30px;
+}
+.andrea-title {
+	font-family: 'Lobster Two';
+	font-size: 100px;
+}
+.andrea-subtitle {
+	font-size: 40px;
+	font-variant: small-caps;
+	letter-spacing: 12px;
+	margin-top: -15px;
+}
+
+/**** Content Pages ****/
+.photo {
+	width: 300px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.about-page-body {
+	display: flex;
+	flex-direction: row;
+	padding-left: 200px;
+	padding-right: 100px;
+}
+.bio-container {
+	padding-right: 100px;
+	line-height: 30px;
+}
+.bio-photo {
+	border-radius: 10px;
+}
+.transition {
+	transition: all 1s ease;
+}
+.transition:target {
+    color:red;
+}

@@ -56,7 +56,7 @@ export default class Projects extends Component {
 								<div key={i}>
 									<Animated.div style={style}>
 										<Link to={`/projects/${p.id}`}>
-											<img src={p.thumbnail} className="thumbnail-image" />
+											<img alt="" src={p.thumbnail} className="thumbnail-image" />
 										</Link>
 									</Animated.div>
 								</div>

@@ -11,10 +11,9 @@ import Grumblr4 from './../images/grumblr-4.png';
 import Grumblr5 from './../images/grumblr-5.png';
 
 import React, { Component } from "react";
-import { Route, matchPath, withRouter } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 import TransitionGroup from "react-transition-group/TransitionGroup";
 import AnimatedSwitch from "./animated_switch";
-import { firstChild } from "../utils/helpers";
 
 import TopBar from "./top_bar";
 import Home from "./home";

@@ -65,7 +65,7 @@ export default class ProjectItem extends Component {
 				<div className="project-images">
 					{ images && images.map((image, i) => {
 						return (
-							<img key={i} src={image} width={customWidths[i] ? customWidths[i] : ''} className="additional-image" />
+							<img alt="" key={i} src={image} width={customWidths[i] ? customWidths[i] : ''} className="additional-image" />
 						)
 					})}
 				</div>

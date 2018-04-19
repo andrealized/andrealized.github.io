@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import {withRouter} from 'react-router-dom';
-import { DEFAULT_ENCODING } from "crypto";
 const classNames = require('classnames');
 const Camera = require('react-icons/lib/ti/camera-outline');
-const Mail = require('react-icons/lib/ti/mail');
 const BusinessCard = require('react-icons/lib/ti/business-card');
-const Briefcase = require('react-icons/lib/ti/briefcase');
-const Desktop = require('react-icons/lib/ti/device-desktop');
 const Laptop = require('react-icons/lib/ti/device-laptop');
 const Paintbrush = require('react-icons/lib/ti/brush');
 
